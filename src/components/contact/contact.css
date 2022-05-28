@@ -43,13 +43,14 @@ textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
+  background: rgba(0, 0, 0, 0.2);
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: var(--color-white);
 }
-.btn__primary:hover {
-  color: white;
+input:focus,
+textarea:focus {
+  background: transparent;
 }
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/
