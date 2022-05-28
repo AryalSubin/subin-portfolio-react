@@ -85,12 +85,17 @@ header {
   header {
     padding-top: 8rem;
     overflow: hidden;
+    height: 70vh;
+  }
+  .header__container {
+    text-align: center;
+    height: 100%;
+    position: static;
   }
 
   .header__socials {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 0.8rem;
     position: absolute;
     left: 3.5rem;
@@ -98,9 +103,9 @@ header {
     font-size: 2rem;
   }
   .scroll__down {
-    position: relative;
-    right: -20rem;
-    top: 30rem;
+    justify-content: center;
+    top: 40rem;
+    right: 3.5rem;
     animation: MoveUpDown 1s linear infinite;
     font-weight: 300;
     font-size: 3rem;
@@ -108,10 +113,10 @@ header {
   @keyframes MoveUpDown {
     0%,
     100% {
-      top: 32rem;
+      top: 40rem;
     }
     50% {
-      top: 30rem;
+      top: 39rem;
     }
   }
 }
