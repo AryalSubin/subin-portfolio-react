@@ -81,8 +81,9 @@ const Contact = () => {
             placeholder="Your Full Name"
             required
           />
-          <input type="text" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
+            type="textarea"
             name="message"
             rows="18"
             placeholder="Your Message"
