@@ -18,8 +18,9 @@
   transition: var(--transition);
 }
 .contact_option:hover {
-  background: transparent;
+  background: #303179be;
   border-color: var(--color-primary-variant);
+  letter-spacing: 0.015em;
 }
 .contact__option-icon {
   font-size: 1.5rem;
@@ -50,7 +51,11 @@ textarea {
 }
 input:focus,
 textarea:focus {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.3);
+}
+input:hover,
+textarea:hover {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/

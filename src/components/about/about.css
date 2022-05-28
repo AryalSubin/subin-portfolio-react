@@ -46,6 +46,7 @@
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
+  letter-spacing: 0.015em;
 }
 
 .about__icon {

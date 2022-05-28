@@ -12,7 +12,8 @@
 }
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
-  background: transparent;
+  background: #303179be;
+  padding: 1.15rem;
 }
 
 .portfolio__item-image {
