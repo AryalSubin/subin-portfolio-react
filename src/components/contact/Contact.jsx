@@ -27,6 +27,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    alert("Form Submitted, I will get back to you as soon as possible");
   };
 
   return (
