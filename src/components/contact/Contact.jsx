@@ -40,7 +40,11 @@ const Contact = () => {
             <AiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>aryalsuubin@gmail.com</h5>
-            <a href="mailto:aryalsuubin@gmail.com" target="_blank">
+            <a
+              href="mailto:aryalsuubin@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a Mail
             </a>
           </article>
@@ -48,7 +52,11 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Subin Aryal</h5>
-            <a href="https://m.me/100007806556557" target="_blank">
+            <a
+              href="https://m.me/100007806556557"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a Message
             </a>
           </article>
