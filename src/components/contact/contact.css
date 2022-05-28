@@ -48,6 +48,9 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
+.btn__primary:hover {
+  color: white;
+}
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/
 @media screen and (max-width: 1024px) {

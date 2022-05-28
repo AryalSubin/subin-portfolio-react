@@ -1,6 +1,6 @@
 header {
-  height: 100vh;
-  padding-top: 5rem;
+  height: 115vh;
+  padding-top: 3rem;
   overflow: hidden;
 }
 .header__container {
@@ -11,10 +11,13 @@ header {
 
 /*================ CTA =========================*/
 .cta {
-  margin-top: 2.5rem;
+  margin-top: 1rem;
   display: flex;
   gap: 1.2rem;
   justify-content: center;
+}
+.cta a:hover {
+  background: #007e9f;
 }
 
 /*================ HEADER SOCIALS ===============*/
@@ -26,7 +29,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 7rem;
   font-size: 1.3rem;
 }
 
@@ -42,7 +45,7 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 25rem;
   position: absolute;
   left: calc(50% - 11rem);
   margin-top: 4rem;
@@ -55,39 +58,61 @@ header {
   position: relative;
   right: 7rem;
   width: 25rem;
+  bottom: 5rem;
 }
 .scroll__down {
   position: absolute;
-  right: -2rem;
-  bottom: 5.5rem;
-  transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 2rem;
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
+  right: 0;
+  bottom: 115px;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 115px;
+  }
+  50% {
+    bottom: 100px;
+  }
 }
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/
 @media screen and (max-width: 1024px) {
   header {
-    padding-top: 5rem;
+    padding-top: 8rem;
     overflow: hidden;
   }
+
   .header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 10rem;
-    font-size: 1.3rem;
+    left: 3.5rem;
+    bottom: 30rem;
+    font-size: 2rem;
   }
   .scroll__down {
-    position: absolute;
-    right: -2rem;
-    bottom: 13rem;
-    transform: rotate(90deg);
+    position: relative;
+    right: -20rem;
+    top: 30rem;
+    animation: MoveUpDown 1s linear infinite;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 3rem;
+  }
+  @keyframes MoveUpDown {
+    0%,
+    100% {
+      top: 32rem;
+    }
+    50% {
+      top: 30rem;
+    }
   }
 }
 
