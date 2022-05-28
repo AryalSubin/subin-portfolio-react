@@ -28,13 +28,15 @@ const Header = () => {
           />
         </h2>
         <CTA />
-        <HeaderSocials />
-        <div className="me">
-          <img src={ME} alt="me" />
+        <div className="header__row">
+          <HeaderSocials />
+          <div className="me">
+            <img src={ME} alt="me" />
+          </div>
+          <a href="#contact" className="scroll__down">
+            <FiChevronsDown className="arrowDown" />
+          </a>
         </div>
-        <a href="#contact" className="scroll__down">
-          <FiChevronsDown className="arrowDown" />
-        </a>
       </div>
     </header>
   );
