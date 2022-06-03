@@ -4,6 +4,7 @@ import bbmsImg from "../../assets/blood.jpg";
 import teslaImg from "../../assets/tesla.jpg";
 import expenseImg from "../../assets/expenseTracker.jpg";
 import blogImg from "../../assets/blog.jpg";
+import airTravel from "../../assets/airTravel.png";
 
 const Portfolio = () => {
   const data = [
@@ -16,31 +17,40 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      image: airTravel,
+      title: "Air Travel",
+      github: "https://github.com/AryalSubin/AirTravel",
+      demo: "https://travelair.netlify.app/?#top",
+    },
+    {
+      id: 3,
       image: bbmsImg,
       title: "Blood Bank Management System",
       github: "https://github.com/AryalSubin/Blood_Bank_Mgt_System",
       demo: "/#portfolio",
     },
     {
-      id: 3,
+      id: 4,
       image: teslaImg,
       title: "Tesla clone",
       github: "https://github.com/AryalSubin/TESLA_CLONE",
       demo: "/#portfolio",
     },
-    {
-      id: 4,
-      image: expenseImg,
-      title: "Expense Tracker",
-      github: "https://github.com/AryalSubin/ExpenseTracker",
-      demo: "https://expense-tracker00.netlify.app/",
-    },
+
     {
       id: 5,
       image: blogImg,
       title: "Blog App",
       github: "https://github.com/AryalSubin/Blog_App",
       demo: "https://blogproject-93385.firebaseapp.com/",
+    },
+
+    {
+      id: 6,
+      image: expenseImg,
+      title: "Expense Tracker",
+      github: "https://github.com/AryalSubin/ExpenseTracker",
+      demo: "https://expense-tracker00.netlify.app/",
     },
   ];
 
