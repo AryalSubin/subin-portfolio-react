@@ -4,6 +4,7 @@ import bbmsImg from "../../assets/blood.jpg";
 import teslaImg from "../../assets/tesla.jpg";
 import expenseImg from "../../assets/expenseTracker.jpg";
 import blogImg from "../../assets/blog.jpg";
+import airTravel from "../../assets/airTravel.jpg";
 
 const Portfolio = () => {
   const data = [
@@ -13,6 +14,13 @@ const Portfolio = () => {
       title: "Netflix clone",
       github: "https://github.com/AryalSubin/Netflix-clone",
       demo: "https://lsk-netflix-clone.firebaseapp.com/",
+    },
+    {
+      id: 6,
+      image: airTravel,
+      title: "Air Travel",
+      github: "https://github.com/AryalSubin/AirTravel",
+      demo: "https://travelair.netlify.app/",
     },
     {
       id: 2,
