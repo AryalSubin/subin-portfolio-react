@@ -23,17 +23,17 @@ const Portfolio = () => {
       demo: "https://travelair.netlify.app/?#top",
     },
     {
-      id: 3,
-      image: bbmsImg,
-      title: "Blood Bank Management System",
-      github: "https://github.com/AryalSubin/Blood_Bank_Mgt_System",
-      demo: "/#portfolio",
-    },
-    {
       id: 4,
       image: teslaImg,
       title: "Tesla clone",
       github: "https://github.com/AryalSubin/TESLA_CLONE",
+      demo: "/#portfolio",
+    },
+    {
+      id: 3,
+      image: bbmsImg,
+      title: "Blood Bank Management System",
+      github: "https://github.com/AryalSubin/Blood_Bank_Mgt_System",
       demo: "/#portfolio",
     },
 
