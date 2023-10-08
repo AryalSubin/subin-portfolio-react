@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
+import ME from "../../assets/me-1.png";
 import HeaderSocials from "./HeaderSocials";
 import Typical from "react-typical";
 import { FiChevronsDown } from "react-icons/fi";

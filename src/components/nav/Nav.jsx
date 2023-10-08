@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./nav.css";
-import { AiOutlineHome, AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
+import { AiOutlineUser, AiOutlineMessage } from "react-icons/ai";
+// import { AiOutlineHome } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { HiOutlineFolderOpen } from "react-icons/hi";
@@ -9,7 +10,7 @@ const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a
+      {/* <a
         href="#home"
         onClick={() => {
           setActiveNav("#home");
@@ -17,7 +18,7 @@ const Nav = () => {
         className={activeNav === "#home" ? "active" : ""}
       >
         <AiOutlineHome />
-      </a>
+      </a> */}
       <a
         href="#about"
         onClick={() => {

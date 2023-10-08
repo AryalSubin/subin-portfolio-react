@@ -44,7 +44,7 @@ const Experience = () => {
               <SiTailwindcss className="experience__details-icon" />
               <div>
                 <h4>TailWind</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Moderate</small>
               </div>
             </article>
             <article className="experience__details">

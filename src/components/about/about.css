@@ -3,7 +3,26 @@
   grid-template-columns: 35% 50%;
   gap: 15%;
 }
+#about > h5{
+  margin-top: 0px;
+}
 
+/*================ CTA =========================*/
+.cta {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-end;
+  position: absolute;
+  right:12rem;
+  top: 0.5rem;
+}
+.typ{
+  color: #8981cd
+}
+.cta a:hover {
+  background: #007e9f;
+}
 .about__me {
   width: 100%;
   aspect-ratio: 1/1;
@@ -66,7 +85,9 @@
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  text-align: justify;
 }
+
 
 /*=================== MEDIA QUERIES (MEDIUM DEVICES) ====================*/
 @media screen and (max-width: 1024px) {
@@ -84,6 +105,18 @@
   .about__content p {
     margin: 1rem 0 1.5rem;
   }
+  .cta {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: flex-end;
+    position: absolute;
+    right:1rem;
+    top: 0.5rem;
+  }
+  .cta a:hover {
+    background: #007e9f;
+  }
 }
 /*=================== MEDIA QUERIES (SMALL DEVICES) ====================*/
 @media screen and (max-width: 600px) {
@@ -96,6 +129,7 @@
   }
   .about__content {
     text-align: center;
+    
   }
   .about__content p {
     margin: 1.5rem 0;

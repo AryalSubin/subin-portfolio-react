@@ -57,9 +57,12 @@ header {
 .me > img {
   /* transform: rotate(-2deg); */
   position: relative;
-  right: 7rem;
-  width: 25rem;
-  bottom: 5rem;
+  right: 1.5rem;
+  height: 150%;
+  width: 120%;
+  bottom: 3rem;
+  
+
 }
 .scroll__down {
   position: absolute;

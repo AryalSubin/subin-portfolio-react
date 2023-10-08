@@ -5,51 +5,60 @@ import teslaImg from "../../assets/tesla.jpg";
 import expenseImg from "../../assets/expenseTracker.jpg";
 import blogImg from "../../assets/blog.jpg";
 import airTravel from "../../assets/airTravel.jpg";
+import luzzy from "../../assets/luzzy_.PNG";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: netflixImg,
-      title: "Netflix clone",
-      github: "https://github.com/AryalSubin/Netflix-clone",
-      demo: "https://lsk-netflix-clone.firebaseapp.com/",
-    },
-    {
-      id: 6,
-      image: airTravel,
-      title: "Air Travel",
-      github: "https://github.com/AryalSubin/AirTravel",
-      demo: "https://travelair.netlify.app/",
+      image: luzzy,
+      title: "Luzzy",
+      github: "https://github.com/AryalSubin/Luzzy",
+      demo: "https://luzzy.netlify.app/",
     },
     {
       id: 2,
+      image: netflixImg,
+      title: "Netflix clone",
+      github: "https://github.com/AryalSubin/Netflix-clone",
+      demo: "https://lsk-netflix-clone.web.app/",
+    },
+    {
+      id: 3,
+      image: blogImg,
+      title: "Blog App",
+      github: "https://github.com/AryalSubin/Blog_App",
+      demo: "https://blogproject-93385.firebaseapp.com/",
+    },
+    {
+      id: 4,
       image: bbmsImg,
-      title: "Blood Bank Management System",
+      title: "Blood Bank Mgmt System",
       github: "https://github.com/AryalSubin/Blood_Bank_Mgt_System",
       demo: "/#portfolio",
     },
     {
-      id: 3,
+      id: 5,
       image: teslaImg,
       title: "Tesla clone",
       github: "https://github.com/AryalSubin/TESLA_CLONE",
       demo: "/#portfolio",
     },
     {
-      id: 4,
+      id: 6,
       image: expenseImg,
       title: "Expense Tracker",
       github: "https://github.com/AryalSubin/ExpenseTracker",
       demo: "https://expense-tracker00.netlify.app/",
     },
     {
-      id: 5,
-      image: blogImg,
-      title: "Blog App",
-      github: "https://github.com/AryalSubin/Blog_App",
-      demo: "https://blogproject-93385.firebaseapp.com/",
+      id: 7,
+      image: airTravel,
+      title: "Air Travel",
+      github: "https://github.com/AryalSubin/AirTravel",
+      demo: "https://travelair.netlify.app/",
     },
+    
   ];
 
   return (

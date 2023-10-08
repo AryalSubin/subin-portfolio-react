@@ -16,7 +16,7 @@
 #303179be; default
  */
 :root {
-  --color-bg: #1f2937;
+  --color-bg: #1f2a3a;
   --color-bg-variant: #31316c8a;
   --color-primary: #17b7dad2;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -63,7 +63,7 @@ h1 {
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 section > h2,
@@ -122,7 +122,7 @@ img {
     width: var(--container-width-md);
   }
   section {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 }
 /*=================MEDIA QUERIES(SMALL DEVICES)=================*/
@@ -133,5 +133,8 @@ img {
   }
   section > h2 {
     margin-bottom: 2rem;
+  }
+  section {
+    margin-top: 6rem;
   }
 }
