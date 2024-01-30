@@ -20,11 +20,11 @@ const about = () => {
             loop={Infinity}
             wrapper="b"
             steps={[
-              "Frontend Developer 💻",
+              "Frontend Web Developer 💻",
               1500,
               "Full Stack Developer 👑",
               1500,
-              "MERN Stack Developer 👓 ",
+              "Back End Developer 👓 ",
               1500,
             ]}
           />
