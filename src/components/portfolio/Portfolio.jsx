@@ -58,7 +58,6 @@ const Portfolio = () => {
       github: "https://github.com/AryalSubin/AirTravel",
       demo: "https://travelair.netlify.app/",
     },
-    
   ];
 
   return (

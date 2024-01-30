@@ -7,29 +7,26 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import Typical from "react-typical";
 import CTA from "../header/CTA";
 
-
-
 const about = () => {
   return (
     <section id="about">
       <h5>Hello I'm</h5>
-        <h2>Subin Aryal</h2>
-        <CTA />
-        <h2 className="typ">
-          <Typical
-            loop={Infinity}
-            wrapper="b"
-            steps={[
-              "Frontend Web Developer 💻",
-              1500,
-              "Full Stack Developer 👑",
-              1500,
-              "Back End Developer 👓 ",
-              1500,
-            ]}
-          />
-        </h2>
-
+      <h2>Subin Aryal</h2>
+      <CTA />
+      <h2 className="typ">
+        <Typical
+          loop={Infinity}
+          wrapper="b"
+          steps={[
+            "Frontend Web Developer 💻",
+            1500,
+            "Full Stack Developer 👑",
+            1500,
+            "Back End Developer 👓 ",
+            1500,
+          ]}
+        />
+      </h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -54,12 +51,19 @@ const about = () => {
             </article>
           </div>
           <p>
-            Hello I am <b>Subin Aryal</b>, <b>BSc. CSIT</b> graduate and
-            Technology enthusiast, passionate about developing in general.
+            Hello there! 👋 I am <b>Subin Aryal</b>, an <b>MIT</b> Student and a
+            passionate web developer with a keen eye for design and a love for
+            crafting seamless user experiences.
           </p>
           <p>
-          I am an Expert front-end web developer with extensive experience in HTML/CSS and JavaScript. I've also worked with ReactJS, Tailwind CSS and Redux.js - so I know my way around creating high-quality user experiences. 
-            If you're looking for someone to join your team and help take your site to the next level, please don't hesitate to get in touch. Thanks for considering me!
+            I'm an expert front-end web developer with a wealth of experience in
+            HTML, CSS, and JavaScript. Proficient in frameworks like React JS
+            and Next JS, I excel in styling with Tailwind CSS. I leverage
+            Redux.js/Zustand for effective state management and employ React
+            Query for seamless data fetching, updating, creating, and deleting.
+            Specializing in crafting high-quality user experiences, I am eager
+            to connect if you're seeking a dedicated professional to elevate
+            your team and enhance your site. Thank you for considering me
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

@@ -8,6 +8,8 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -30,27 +32,41 @@ const Experience = () => {
               <DiCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <IoLogoJavascript className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Moderate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTypescript className="experience__details-icon" />
+              <div>
+                <h4>TypeScript</h4>
+                <small className="text-light">Moderate</small>
               </div>
             </article>
             <article className="experience__details">
               <SiTailwindcss className="experience__details-icon" />
               <div>
                 <h4>TailWind</h4>
-                <small className="text-light">Moderate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <FaReact className="experience__details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>React JS</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiNextdotjs className="experience__details-icon" />
+              <div>
+                <h4>Next JS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>

@@ -17,7 +17,7 @@
 .portfolio__item:hover {
   background: #31316c;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-  transform: scaleY(1.02);
+  transform: scale(1.03);
   transform-origin: bottom;
 
 
