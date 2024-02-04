@@ -10,22 +10,22 @@
   width: 100%;
   background: var(--color-bg-variant);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-  border-radius: 2.5rem;
+  border-radius: 15px;
   border: 2px solid transparent;
   transition: var(--transition);
 }
 .portfolio__item:hover {
   background: #31316c;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
-  transform: scale(1.03);
-  transform-origin: bottom;
+  transform: scale(1.01);
+  
 
 
 
 }
 
 .portfolio__item-image {
-  border-radius: 2.5rem;
+  border-radius: 15px;
   height: 200px;
   
   overflow: hidden;

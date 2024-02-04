@@ -11,13 +11,18 @@ header {
 
 /*================ CTA =========================*/
 .cta {
+  height: 100px;
   margin-top: 1rem;
   display: flex;
   gap: 1.2rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 .cta a:hover {
   background: #007e9f;
+}
+.logoCSS{
+  width: 50px;
+  height: 50px;
 }
 
 /*================ HEADER SOCIALS ===============*/
